@@ -108,7 +108,7 @@ private fun countChains(adapter: Int, pairs: Map<Int, List<Int>>, deviceJolts: I
     return localAccum
 }
 
-private fun day10Part2(): Long {
+fun day10Part2(): Long {
 
     val adapters = input()
     val deviceJolts = adapters.sorted()[adapters.size - 1] + 3
